@@ -1,0 +1,63 @@
+{
+  "_from": "git+https://github.com/Wikitude/wikitude-cordova-plugin.git",
+  "_id": "com.wikitude.phonegap.wikitudeplugin@7.2.1",
+  "_inBundle": false,
+  "_location": "/com.wikitude.phonegap.wikitudeplugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/Wikitude/wikitude-cordova-plugin.git",
+    "rawSpec": "https://github.com/Wikitude/wikitude-cordova-plugin.git",
+    "saveSpec": "git+https://github.com/Wikitude/wikitude-cordova-plugin.git",
+    "fetchSpec": "https://github.com/Wikitude/wikitude-cordova-plugin.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/Wikitude/wikitude-cordova-plugin.git#0a36616cb2c207142414c2bc6f3febc9551a3020",
+  "_spec": "https://github.com/Wikitude/wikitude-cordova-plugin.git",
+  "_where": "/Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/edinburgh-ar-tourism",
+  "author": {
+    "name": "Wikitude GmbH"
+  },
+  "bugs": {
+    "url": "https://github.com/Wikitude/wikitude-phonegap/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Augmented Reality Wikitude SDK Plugin \n        The Wikitude Cordova Plugin enables developers to embed an augmented reality view into their PhoneGap project. You can create a fully featured app with advanced augmented reality features, including image recognition, purely using HTML, CSS and JavaScript.\n    ",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/Wikitude/wikitude-phonegap#readme",
+  "keywords": [
+    "AR",
+    "augmented reality",
+    "Wikitude",
+    "image recognition",
+    "markerless tracking",
+    "cloud recognition",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "(c) 2016 - 2017 Wikitude GmbH - see License.md for details of the license",
+  "name": "com.wikitude.phonegap.wikitudeplugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wikitude/wikitude-phonegap.git"
+  },
+  "version": "7.2.1"
+}

@@ -1,0 +1,36 @@
+#title{
+	font-family: Times New Roman;
+	font-size: 32px;
+	text-align: center;
+	text-decoration:underline;
+}
+
+.button {
+    background-color: #0033cc;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight:500;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 160px;
+}
+
+#backButton{
+	background-color: #0033cc;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight:500;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 60px;
+}
