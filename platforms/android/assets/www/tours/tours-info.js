@@ -10,6 +10,7 @@ $( document ).ready(function(){
   		getTourPois();
   	});
   	
+  	//Display the information for the selected tour
   	function displayToursInfo(){
 		$('#tourName').append(localStorage.name);
 		$('#tourDescription').append(localStorage.description);
@@ -30,6 +31,7 @@ $( document ).ready(function(){
 		
   	}
   	
+  	//Load in POIs
   	function loadPois(){
         $.ajax({
             url: "https://api.mlab.com/api/1/databases/edinburgh-ar-tourism/collections/points_of_interest?apiKey=gSDJbLmGR6TY76g_31pBOWAWu-201Y7O",
