@@ -10,13 +10,24 @@
     
     <body>
         <div class="bar bar-header bar-positive" style="margin-bottom:80px;">
-            <a href="tour-list.html" id="backButton" class="button">Back</a><h1 class="title">Tours</h1>
+            <a href="tour-list.html" id="backButton" class="button">Back</a><h1 class="title" id="tourName"></h1>
         </div><br/><br/>
-        <div align = "center">
-            <br/><h2 id="title">Tour Info</h2>
-            <br/>
+        <div align = "left">
+        	<h4>Description</h4>
+            <p id="tourDescription"></p>
+            
+            <div style="clear: both">
+            	<h5 style="display: inline" id="tourDistance">Distance: </h5>     	
+            	<h5 style="display: inline; padding-left:5em" id="tourTime">Est. Time: </h5>
+            </div>
+            <hr/>
+            
+            <h4>Start/End Coordinates</h4>
+            <p id="tourCoordinates"></p>
+            
         </div>
         <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
-        <script type="text/javascript" src="../js/index.js"></script>      
+        <script type="text/javascript" src="../js/index.js"></script>
+        <script type="text/javascript" src="tours-info.js"></script>       
     </body>
 </html>
