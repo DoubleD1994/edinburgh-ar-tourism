@@ -12,20 +12,29 @@
         <div class="bar bar-header bar-positive" style="margin-bottom:80px;">
             <a href="tour-list.html" id="backButton" class="button">Back</a><h1 class="title" id="tourName"></h1>
         </div><br/><br/>
-        <div align = "left">
-        	<h4>Description</h4>
-            <p id="tourDescription"></p>
+        
+        <div style="margin-left:10px; margin-right:10px;">
+        
+        	<div align = "left">
+        		<h4>Description</h4>
+            	<p id="tourDescription"></p>
             
-            <div style="clear: both">
-            	<h5 style="display: inline" id="tourDistance">Distance: </h5>     	
-            	<h5 style="display: inline; padding-left:5em" id="tourTime">Est. Time: </h5>
-            </div>
-            <hr/>
+            	<div style="clear: both">
+            		<h5 style="display: inline" id="tourDistance">Distance: </h5>     	
+            		<h5 style="display: inline; padding-left:5em" id="tourTime">Est. Time: </h5>
+            	</div>
+            	<hr/>
             
-            <h4>Start/End Coordinates</h4>
-            <p id="tourCoordinates"></p>
-            
+            	<h4>Start/End Coordinates</h4>
+            	<p id="tourCoordinates"></p>     
+        	</div>
+        	
+        	<div style="position:fixed; bottom: 10px; left: 50%; margin-left:-80px;">
+        		<a href="#" id="startTour" class="button">Start Tour</a>
+        	</div>
+        
         </div>
+        
         <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
         <script type="text/javascript" src="../js/index.js"></script>
         <script type="text/javascript" src="tours-info.js"></script>       
