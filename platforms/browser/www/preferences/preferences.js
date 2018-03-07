@@ -18,7 +18,7 @@ $( document ).ready(function(){
     				id: data.poi_name,
     				href: '#',
     				rel: 'external',
-    				class: "button",
+    				class: "poiButton",
     				text: data.poi_name
 				}).click(function(){
 					takeMeThere(data.poi_name, data.topic, data.information, data.latitude, data.longitude);
